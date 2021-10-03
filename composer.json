@@ -1,0 +1,36 @@
+{
+  "name": "fizk/admin-editor",
+  "type": "grav-plugin",
+  "description": "Editor",
+  "keywords": ["plugin"],
+  "homepage": "https://github.com/fizk/grav-plugin-admin-editor",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fizk78",
+      "email": "fizk78@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "laminas/laminas-diactoros": "^2.4",
+    "psr/http-server-handler": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\AdminEditor\\": "classes/"
+    },
+    "classmap":  ["admin-editor.php"]
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.3"
+    }
+  },
+  "require-dev": {
+    "mikey179/vfsstream": "^1.6",
+    "phpunit/phpunit": "^7.5",
+    "rockettheme/toolbox": "^1.5"
+  }
+}

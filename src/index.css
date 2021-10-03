@@ -1,0 +1,41 @@
+html, body {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+[data-react] {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        'data-react-header data-react-header'
+        'data-react-aside data-react-main'
+        'data-react-footer data-react-footer'
+}
+[data-react] > header {
+    grid-area: data-react-header;
+}
+[data-react] > aside {
+    grid-area: data-react-aside;
+}
+[data-react] > main {
+    grid-area: data-react-main;
+}
+[data-react] > footer {
+    grid-area: data-react-footer;
+}
+
+
+
+.icon {
+    height: 1rem;
+    width: auto;
+}

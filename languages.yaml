@@ -1,0 +1,4 @@
+en:
+  PLUGIN_ADMIN_EDITOR:
+    TEXT_VARIABLE: Text Variable
+    TEXT_VARIABLE_HELP: Text to add to the top of a page

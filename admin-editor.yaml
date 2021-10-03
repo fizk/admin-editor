@@ -1,0 +1,5 @@
+enabled: true
+active: true
+route: '/api'
+theme: editor
+text_var: Custom Text added by the **Admin Editor** plugin (disable plugin to remove)
